@@ -24,6 +24,7 @@ let alumnos = [{
 
 const boton = document.querySelector(".boton-confirmar");
 const contenedor = document.querySelector(".grid-container");
+
 for (alumno in alumnos) {
     let datos = alumnos[alumno];
     let nombre = datos["nombre"];
